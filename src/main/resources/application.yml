@@ -1,0 +1,23 @@
+spring:
+  output:
+    ansi:
+      enabled: detect
+
+phil:
+  name: phillip
+  nickname: phillie
+
+annie:
+  name: annabelle
+  nickname: annie
+
+rabbit:
+  connection:
+    host: localhost
+    username: guest
+    password: guest
+    vhost: /
+  listen:
+    queue: Squawks
+  publish:
+    exchange: SquawksExchange
